@@ -1,30 +1,9 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+One of two challenges made for Chicks Gold, both projects were made in React to showcase my capacity to use the framework and develop components nicely, and also because I've already showcased one project I've made in Angular and it's a bit much for what it's asked of me in both challenges.  
 
-Currently, two official plugins are available:
+Some assets are not present in the mock build when compared to the PDF, mostly because some of them were unavailable and really hard to fit under without using certain libraries or other tricks. Also, while the responsive algorithm is the same as the actual Chicks Gold website, just because I wanted to showcase my ability to reuse components in various places I ended up using a generic Input component for the cards, which may make them stretch just a little bit more.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Finally, one detail that might be important is the fact that I use pnpm as a package manager and PostCSS as a CSS preprocessor, which should explain the YAML files present (the PostCSS config is also in YAML just to maintain some consistency). The fact that I use pnpm also means that if you want to run the page you would have to use pnpm dev, OR, alternatively, use npm install so you get a package-lock.json first, then run it through npm run dev.  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
