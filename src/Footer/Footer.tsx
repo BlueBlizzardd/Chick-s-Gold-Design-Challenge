@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className={`${styles.info} flex`}>
                     <div className={`${styles.infoColumn}`}>
                         <div className={`${styles.footerBrand}`}>
-                            <img src="src/assets/chicks-logo-large.svg" alt="chicks_logo" />
+                            <img src="./src/assets/chicks-logo-large.svg" alt="chicks_logo" />
                         </div>
                         <span>support@chicksgold.com</span>
                     </div>
