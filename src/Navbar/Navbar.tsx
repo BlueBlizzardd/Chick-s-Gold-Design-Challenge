@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <nav className={`${styles.nav} flex`}>
             <div className={`${styles.navBrand}`}>
-                <img src="src\assets\chicks-logo-large.svg" alt="chicks-logo" />
+                <img src="src/assets/chicks-logo-large.svg" alt="chicks-logo" />
             </div>
 
             <button className={`${styles.mobileToggle}`} onClick={handleClose}></button>
