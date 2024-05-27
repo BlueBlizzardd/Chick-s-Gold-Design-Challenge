@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Kingdom Key",
+        "icon": "/Kingdom_Key_KH.png",
+        "price": "250.00",
+        "description": "The key chain attached draws out the Keyblade's true form and power."
+    },
+    {
+        "name": "Attorney Badge",
+        "icon": "/BadgeOriginalDefinition.png",
+        "price": "100.00",
+        "description": "No one would believe I was a defense attorney if I didn't carry this."
+    },
+    {
+        "name": "Vampire Killer",
+        "icon": "/Improved_Combat_Cross_Icon.png",
+        "price": "50.00",
+        "description": "The whip that will destroy all who are related to the kindred of the night."
+    },
+    {
+        "name": "Paladin's Necklace",
+        "icon": "/Paladin's_Necklace_Manga.png",
+        "price": "1000.00",
+        "description": "The player wearing this necklace will repel curses cast on them."
+    },
+    {
+        "name": "Way to Dawn",
+        "icon": "/Way_to_the_Dawn_KHII.png",
+        "price": "12.00",
+        "description": "The Keyblade Riku began his journey with. It provides a balanced boost in Strength and Magic."
+    }
+]

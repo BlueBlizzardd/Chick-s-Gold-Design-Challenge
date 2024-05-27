@@ -8,7 +8,7 @@ export default function Content() {
     const [data, setData] = useState<CardProps[]>([])
 
     useEffect(() => {
-        fetch('src/assets/sampleData.json')
+        fetch('/sampleData.json')
             .then(result => result.json())
             .then((res: CardProps[]) => setData(res));
     }, []);

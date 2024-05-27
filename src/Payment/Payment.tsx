@@ -5,13 +5,13 @@ export default function Payment() {
         <div className={`${payment.paymentRow}`}>
             <div className={`${payment.container} flex`}>
                 <div className={`${payment.method}`}>
-                    <img src="./src/assets/paymentMethods/Visa_Inc._logo.svg" alt="Visa" />
+                    <img src="/paymentMethods/Visa_Inc._logo.svg" alt="Visa" />
                 </div>
                 <div className={`${payment.method}`}>
-                    <img src="./src/assets/paymentMethods/Mastercard-logo.svg" alt="Master_Card" />
+                    <img src="/paymentMethods/Mastercard-logo.svg" alt="Master_Card" />
                 </div>
                 <div className={`${payment.method}`}>
-                    <img src="./src/assets/paymentMethods/Skrill_logo.svg" alt="Skrill" />
+                    <img src="/paymentMethods/Skrill_logo.svg" alt="Skrill" />
                 </div>
                 <span>and 50+ more</span>
             </div>
