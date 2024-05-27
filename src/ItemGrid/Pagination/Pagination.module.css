@@ -1,0 +1,26 @@
+.paginator {
+    --gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowLeft {
+    transform: rotate(135deg);
+}
+
+.arrowRight {
+    transform: rotate(-45deg);
+}
+
+@media (width < 600px) {
+    .paginator>button {
+        font-size: 14px;
+        padding-inline: auto;
+        height: 30px;
+        width: 30px;
+
+        &:nth-child(n+4):nth-child(-n+5) {
+            display: none;
+        }
+    }
+}

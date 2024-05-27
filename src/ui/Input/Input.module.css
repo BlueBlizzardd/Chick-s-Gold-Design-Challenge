@@ -1,0 +1,21 @@
+.input {
+    height: 50px;
+    padding: 12px;
+    border: .5px;
+    border-radius: 4px;
+    background-color: rgba(76, 96, 133, .2);
+
+    &:hover {
+        background-color: rgba(76, 96, 133, .4);
+    }
+
+    &:focus-visible {
+        outline: none;
+        background-color: rgba(76, 96, 133, .6);
+    }
+
+    &::placeholder {
+        font-weight: 500;
+        color: rgba(250, 252, 255, .75);
+    }
+}

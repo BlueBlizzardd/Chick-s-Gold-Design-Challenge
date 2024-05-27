@@ -1,0 +1,44 @@
+.container {
+    --gap: 0.5rem;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 30px;
+    overflow: hidden;
+    aspect-ratio: 1;
+
+    &.fb {
+        background-color: #3b5999;
+    }
+
+    &.ig {
+        background-color: #d73782;
+
+        img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    &.twt {
+        background-color: #32a3ce;
+    }
+
+    &.disc {
+        background-color: #7289d9;
+    }
+
+    img {
+        display: block;
+    }
+}
+
+@media (width < 1040px) {
+    .container {
+        justify-content: center;
+    }
+}

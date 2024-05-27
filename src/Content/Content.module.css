@@ -1,0 +1,86 @@
+.background {
+    padding: 4rem;
+    background: no-repeat linear-gradient(transparent, 50%, #37384b), url('../assets/KH_bg.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    min-height: 600px;
+    margin-inline: auto;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.searchbarRow {
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    margin-top: 20px;
+
+    >* {
+        min-width: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .background {
+        padding-inline: 20px;
+    }
+
+    .container {
+        padding-inline: 20px;
+    }
+
+    .searchbarRow {
+        justify-content: space-evenly;
+
+        >* {
+            flex-grow: 1;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        max-width: 566px;
+    }
+
+    .searchbarRow {
+        justify-content: center;
+
+        >* {
+            flex-grow: 1;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .searchbarRow {
+        >:first-child {
+            max-width: 294px;
+        }
+
+        >:nth-child(2) {
+            flex: 1 0 0%;
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 3839px) {
+    .container {
+        max-width: 1260px;
+    }
+}
